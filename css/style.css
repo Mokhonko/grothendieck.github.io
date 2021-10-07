@@ -30,7 +30,7 @@ header{
   background-color: #3d3d3d;
   box-shadow: 0px 0px 10px 5px rgba(61, 61, 61, 0.6);
 }
-.header__btn{
+.header-btn{
   float: right;
   border-radius: 25px;
   line-height: 36px;
@@ -41,7 +41,7 @@ header{
   display: block;
   position: relative;
 }
-.header__btn:before{
+.header-btn:before{
   content: "\f0b1";
   font-family: 'icomoon';
   position: absolute;
@@ -574,7 +574,7 @@ header{
   display: flex;
   justify-content: space-between;
 }
-.footer__inner .header__btn{
+.footer__inner .header-btn{
   float: none;
   display: inline-block;
 }

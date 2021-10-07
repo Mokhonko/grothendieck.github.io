@@ -102,16 +102,16 @@
   }
 }
 @media (max-width: 700px){
-  .header__btn{
+  .header-btn{
     float: none;
   }
   .header__contacts{
     text-align: center;
   }
-  .header__btn:before{
+  .header-btn:before{
     display: none;
   }
-  .footer__info .header__btn:before{
+  .footer__info .header-btn:before{
     display: block;
   }
   .header__btn-menu{
@@ -175,7 +175,7 @@
   }
 }
 @media (max-width: 400px){
-  .header__btn:before{
+  .header-btn:before{
     display: block;
   }
   .advantages-item{
